@@ -1,0 +1,53 @@
+# Data (Kaggle Optiver dataset, ~2.5GB)
+data/
+*.parquet
+*.csv
+!requirements*.txt
+
+# Model artifacts / outputs
+models/
+checkpoints/
+outputs/
+submissions/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.lgb
+*.cbm
+catboost_info/
+mlruns/
+wandb/
+lightning_logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials
+kaggle.json
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
